@@ -569,3 +569,545 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.07-06.37.56:033][  0]LogContentStreaming: Texture pool size now 800 MB
 [2019.05.07-06.37.59:448][142]LogRenderer: Reallocating scene render targets to support 1408x672 Format 9 NumSamples 1 (Frame:146).
 [2019.05.07-06.38.00:877][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.07-06.39.55:971][496]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.338 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.43.18:724][682]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.07-06.43.21:634][712]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.07-06.43.21:846][712]LogSlate: Took 0.032561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.07-06.43.35:848][812]Candidate modules for hot reload:
+[2019.05.07-06.43.35:848][812]  OWAG_V3
+[2019.05.07-06.43.35:849][812]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=OWAG_V3,2161 Win64 Development -TargetType=Editor -Project="E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject" "E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject"  -IgnoreJunk]
+[2019.05.07-06.59.38:374][812]CompilerResultsLog: New page: Compilation - May 6, 2019, 10:59:38 PM
+[2019.05.07-06.59.38:387][812]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\OWAG_V3).
+[2019.05.07-06.59.38:387][812]CompilerResultsLog: Creating makefile for OWAG_V3Editor (.uproject file is newer)
+[2019.05.07-06.59.38:387][812]CompilerResultsLog: Parsing headers for OWAG_V3Editor
+[2019.05.07-06.59.38:388][812]CompilerResultsLog:   Running UnrealHeaderTool "E:\OWAG_V3\OWAG_V3\OWAG_V3.uproject" "E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\OWAG_V3Editor\Development\OWAG_V3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.07-06.59.38:388][812]CompilerResultsLog: Reflection code generated for OWAG_V3Editor in 23.9455521 seconds
+[2019.05.07-06.59.38:389][812]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.07-06.59.38:389][812]CompilerResultsLog: Building 9 actions with 8 processes...
+[2019.05.07-06.59.38:390][812]CompilerResultsLog:   [1/9] PlayerCharacter.cpp
+[2019.05.07-06.59.38:390][812]CompilerResultsLog:   [2/9] OWAG_V3.init.gen.cpp
+[2019.05.07-06.59.38:390][812]CompilerResultsLog:   [3/9] OWAG_V3GameModeBase.gen.cpp
+[2019.05.07-06.59.38:390][812]CompilerResultsLog:   [4/9] OWAG_V3.cpp
+[2019.05.07-06.59.38:390][812]CompilerResultsLog:   [5/9] OWAG_V3GameModeBase.cpp
+[2019.05.07-06.59.38:391][812]CompilerResultsLog:   [6/9] PlayerCharacter.gen.cpp
+[2019.05.07-06.59.38:391][812]CompilerResultsLog:   [7/9] UE4Editor-OWAG_V3-2161.lib
+[2019.05.07-06.59.38:391][812]CompilerResultsLog:      Creating library E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-2161.lib and object E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-2161.exp
+[2019.05.07-06.59.38:392][812]CompilerResultsLog:   [8/9] UE4Editor-OWAG_V3-2161.dll
+[2019.05.07-06.59.38:392][812]CompilerResultsLog:      Creating library E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-2161.suppressed.lib and object E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-2161.suppressed.exp
+[2019.05.07-06.59.38:393][812]CompilerResultsLog:   [9/9] OWAG_V3Editor.target
+[2019.05.07-06.59.38:393][812]CompilerResultsLog: Total time in Parallel executor: 914.21 seconds
+[2019.05.07-06.59.38:393][812]CompilerResultsLog: Total execution time: 961.64 seconds
+[2019.05.07-06.59.38:394][812]LogMainFrame: MainFrame: Module compiling took 962.598 seconds
+[2019.05.07-06.59.38:775][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.05.07-06.59.38:811][812]LogClass: Could not find existing class PlayerCharacter in package /Script/OWAG_V3 for HotReload, assuming new class
+[2019.05.07-06.59.38:819][812]LogContentBrowser: Native class hierarchy updated for 'OWAG_V3' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2019.05.07-06.59.38:825][812]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.07-06.59.39:208][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.05.07-06.59.39:268][812]LogContentBrowser: Native class hierarchy populated in 0.0469 seconds. Added 2735 classes and 663 folders.
+[2019.05.07-06.59.39:291][812]Display: HotReload took 963.9s.
+[2019.05.07-06.59.39:294][812]Warning: HotReload operation took 963.9s.
+[2019.05.07-06.59.42:660][812]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/OWAG_V3/OWAG_V3/Source/OWAG_V3/PlayerCharacter.h'
+[2019.05.07-06.59.42:684][812]LogVSAccessor: Warning: Couldn't open file 'E:/OWAG_V3/OWAG_V3/Source/OWAG_V3/PlayerCharacter.cpp'.
+[2019.05.07-06.59.42:826][812]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.05.07-06.59.42:857][812]LogHotReload: New module detected: UE4Editor-OWAG_V3-2161.dll
+[2019.05.07-06.59.44:107][813]LogHotReload: Starting Hot-Reload from IDE
+[2019.05.07-06.59.44:764][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.05.07-06.59.44:793][813]LogContentBrowser: Native class hierarchy updated for 'OWAG_V3' in 0.0143 seconds. Added 2 classes and 2 folders.
+[2019.05.07-06.59.44:803][813]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.07-06.59.44:882][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.05.07-06.59.44:951][813]LogContentBrowser: Native class hierarchy populated in 0.0525 seconds. Added 2735 classes and 663 folders.
+[2019.05.07-06.59.45:227][813]Display: HotReload took  1.1s.
+[2019.05.07-06.59.45:235][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:236][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:236][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:237][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:238][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:239][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:239][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:240][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:240][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:240][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:241][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:242][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:242][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.007 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:243][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.007 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.45:243][813]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.008 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-06.59.58:012][815]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (12.777 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-07.00.55:693][906]Candidate modules for hot reload:
+[2019.05.07-07.00.55:693][906]  OWAG_V3
+[2019.05.07-07.00.55:693][906]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=OWAG_V3,7029 Win64 Development -TargetType=Editor -Project="E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject" "E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject"  -IgnoreJunk]
+[2019.05.07-07.03.03:001][906]CompilerResultsLog: New page: Compilation - May 6, 2019, 11:03:03 PM
+[2019.05.07-07.03.03:001][906]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\OWAG_V3).
+[2019.05.07-07.03.03:002][906]CompilerResultsLog: Invalidating makefile for OWAG_V3Editor (new files with reflected types)
+[2019.05.07-07.03.03:002][906]CompilerResultsLog: Parsing headers for OWAG_V3Editor
+[2019.05.07-07.03.03:002][906]CompilerResultsLog:   Running UnrealHeaderTool "E:\OWAG_V3\OWAG_V3\OWAG_V3.uproject" "E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\OWAG_V3Editor\Development\OWAG_V3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.07-07.03.03:003][906]CompilerResultsLog: Reflection code generated for OWAG_V3Editor in 14.9777886 seconds
+[2019.05.07-07.03.03:003][906]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.07-07.03.03:004][906]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.05.07-07.03.03:004][906]CompilerResultsLog:   [1/6] PlayerCharacterController.cpp
+[2019.05.07-07.03.03:004][906]CompilerResultsLog:   [2/6] OWAG_V3.init.gen.cpp
+[2019.05.07-07.03.03:004][906]CompilerResultsLog:   [3/6] PlayerCharacterController.gen.cpp
+[2019.05.07-07.03.03:004][906]CompilerResultsLog:   [4/6] UE4Editor-OWAG_V3-7029.lib
+[2019.05.07-07.03.03:004][906]CompilerResultsLog:      Creating library E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-7029.lib and object E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-7029.exp
+[2019.05.07-07.03.03:005][906]CompilerResultsLog:   [5/6] UE4Editor-OWAG_V3-7029.dll
+[2019.05.07-07.03.03:005][906]CompilerResultsLog:      Creating library E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-7029.suppressed.lib and object E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-7029.suppressed.exp
+[2019.05.07-07.03.03:006][906]CompilerResultsLog:   [6/6] OWAG_V3Editor.target
+[2019.05.07-07.03.03:006][906]CompilerResultsLog: Total time in Parallel executor: 97.14 seconds
+[2019.05.07-07.03.03:006][906]CompilerResultsLog: Total execution time: 126.91 seconds
+[2019.05.07-07.03.03:006][906]LogMainFrame: MainFrame: Module compiling took 127.324 seconds
+[2019.05.07-07.03.03:067][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.05.07-07.03.03:077][906]LogClass: Could not find existing class PlayerCharacterController in package /Script/OWAG_V3 for HotReload, assuming new class
+[2019.05.07-07.03.03:090][906]LogContentBrowser: Native class hierarchy updated for 'OWAG_V3' in 0.0033 seconds. Added 3 classes and 2 folders.
+[2019.05.07-07.03.03:096][906]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.07-07.03.03:238][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.05.07-07.03.03:308][906]LogContentBrowser: Native class hierarchy populated in 0.0548 seconds. Added 2736 classes and 663 folders.
+[2019.05.07-07.03.03:308][906]Display: HotReload took 127.9s.
+[2019.05.07-07.03.03:311][906]Warning: HotReload operation took 127.9s.
+[2019.05.07-07.03.04:091][906]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/OWAG_V3/OWAG_V3/Source/OWAG_V3/PlayerCharacterController.h'
+[2019.05.07-07.03.04:378][906]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/OWAG_V3/OWAG_V3/Source/OWAG_V3/PlayerCharacterController.cpp'
+[2019.05.07-07.03.04:458][906]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.05.07-07.03.04:510][906]LogHotReload: New module detected: UE4Editor-OWAG_V3-7029.dll
+[2019.05.07-07.03.04:738][907]LogHotReload: Starting Hot-Reload from IDE
+[2019.05.07-07.03.04:956][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.05.07-07.03.05:145][907]LogContentBrowser: Native class hierarchy updated for 'OWAG_V3' in 0.1808 seconds. Added 3 classes and 2 folders.
+[2019.05.07-07.03.05:159][907]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.07-07.03.05:209][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.05.07-07.03.05:315][907]LogContentBrowser: Native class hierarchy populated in 0.0816 seconds. Added 2736 classes and 663 folders.
+[2019.05.07-07.03.05:359][907]Display: HotReload took  0.6s.
+[2019.05.07-07.03.05:375][907]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-07.03.05:375][907]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-07.03.55:012][416]Candidate modules for hot reload:
+[2019.05.07-07.03.55:012][416]  OWAG_V3
+[2019.05.07-07.03.55:013][416]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=OWAG_V3,6275 Win64 Development -TargetType=Editor -Project="E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject" "E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject"  -IgnoreJunk]
+[2019.05.07-07.06.27:718][416]CompilerResultsLog: New page: Compilation - May 6, 2019, 11:06:27 PM
+[2019.05.07-07.06.27:719][416]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\OWAG_V3).
+[2019.05.07-07.06.27:719][416]CompilerResultsLog: Invalidating makefile for OWAG_V3Editor (new files with reflected types)
+[2019.05.07-07.06.27:719][416]CompilerResultsLog: Parsing headers for OWAG_V3Editor
+[2019.05.07-07.06.27:720][416]CompilerResultsLog:   Running UnrealHeaderTool "E:\OWAG_V3\OWAG_V3\OWAG_V3.uproject" "E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\OWAG_V3Editor\Development\OWAG_V3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.07-07.06.27:720][416]CompilerResultsLog: Reflection code generated for OWAG_V3Editor in 16.5204717 seconds
+[2019.05.07-07.06.27:721][416]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.07-07.06.27:721][416]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.05.07-07.06.27:722][416]CompilerResultsLog:   [1/6] OWAG_V3.init.gen.cpp
+[2019.05.07-07.06.27:722][416]CompilerResultsLog:   [2/6] MainGameMode.cpp
+[2019.05.07-07.06.27:722][416]CompilerResultsLog:   [3/6] MainGameMode.gen.cpp
+[2019.05.07-07.06.27:722][416]CompilerResultsLog:   [4/6] UE4Editor-OWAG_V3-6275.lib
+[2019.05.07-07.06.27:722][416]CompilerResultsLog:      Creating library E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-6275.lib and object E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-6275.exp
+[2019.05.07-07.06.27:723][416]CompilerResultsLog:   [5/6] UE4Editor-OWAG_V3-6275.dll
+[2019.05.07-07.06.27:723][416]CompilerResultsLog:      Creating library E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-6275.suppressed.lib and object E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3-6275.suppressed.exp
+[2019.05.07-07.06.27:724][416]CompilerResultsLog:   [6/6] OWAG_V3Editor.target
+[2019.05.07-07.06.27:724][416]CompilerResultsLog: Total time in Parallel executor: 116.90 seconds
+[2019.05.07-07.06.27:725][416]CompilerResultsLog: Total execution time: 152.37 seconds
+[2019.05.07-07.06.27:725][416]LogMainFrame: MainFrame: Module compiling took 152.720 seconds
+[2019.05.07-07.06.27:775][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.05.07-07.06.27:786][416]LogClass: Could not find existing class MainGameMode in package /Script/OWAG_V3 for HotReload, assuming new class
+[2019.05.07-07.06.27:801][416]LogContentBrowser: Native class hierarchy updated for 'OWAG_V3' in 0.0027 seconds. Added 4 classes and 2 folders.
+[2019.05.07-07.06.27:806][416]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.07-07.06.27:910][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.05.07-07.06.27:942][416]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 2737 classes and 663 folders.
+[2019.05.07-07.06.27:942][416]Display: HotReload took 153.1s.
+[2019.05.07-07.06.27:944][416]Warning: HotReload operation took 153.1s.
+[2019.05.07-07.06.28:924][416]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/OWAG_V3/OWAG_V3/Source/OWAG_V3/MainGameMode.cpp'
+[2019.05.07-07.06.28:962][416]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.05.07-07.06.28:979][416]LogHotReload: New module detected: UE4Editor-OWAG_V3-6275.dll
+[2019.05.07-07.06.29:104][417]LogHotReload: Starting Hot-Reload from IDE
+[2019.05.07-07.06.29:429][417]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.05.07-07.06.29:926][417]LogContentBrowser: Native class hierarchy updated for 'OWAG_V3' in 0.4819 seconds. Added 4 classes and 2 folders.
+[2019.05.07-07.06.29:964][417]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.05.07-07.06.30:147][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.05.07-07.06.31:254][417]LogContentBrowser: Native class hierarchy populated in 1.0884 seconds. Added 2737 classes and 663 folders.
+[2019.05.07-07.06.31:277][417]Display: HotReload took  2.2s.
+[2019.05.07-07.06.31:292][417]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-07.06.31:292][417]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-07.06.55:899][551]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (24.607 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.07-07.07.49:417][998]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerCharacter/PlayerCharacter_BP.PlayerCharacter_BP
+[2019.05.07-07.07.50:447][998]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0056 seconds. Added 121 classes and 0 folders.
+[2019.05.07-07.07.53:117][998]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.05.07-07.07.55:647][ 86]LogSlate: Window 'PlayerCharacter_BP' being destroyed
+[2019.05.07-07.07.55:655][ 86]LogSlate: Window 'PlayerCharacter_BP' being destroyed
+[2019.05.07-07.08.14:758][833]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.05.07-07.08.14:775][833]LogSlate: Window 'Editor Preferences' being destroyed
+[2019.05.07-07.08.29:285][542]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerCharacterController_BP.PlayerCharacterController_BP
+[2019.05.07-07.08.30:070][542]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.05.07-07.08.30:298][543]LogRenderer: Reallocating scene render targets to support 1408x772 Format 9 NumSamples 1 (Frame:1).
+[2019.05.07-07.38.37:328][ 70]Candidate modules for hot reload:
+[2019.05.07-07.38.37:328][ 70]  OWAG_V3
+[2019.05.07-07.38.37:329][ 70]Launching UnrealBuildTool... [D:/Unreal/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=OWAG_V3,9766 Win64 Development -TargetType=Editor -Project="E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject" "E:/OWAG_V3/OWAG_V3/OWAG_V3.uproject"  -IgnoreJunk]
+[2019.05.07-07.38.37:471][ 70]Warning: Starting HotReload took  1.9s.
+[2019.05.07-07.39.17:189][184]CompilerResultsLog: New page: Compilation - May 6, 2019, 11:39:17 PM
+[2019.05.07-07.39.17:199][184]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\OWAG_V3).
+[2019.05.07-07.39.17:203][184]CompilerResultsLog: Creating makefile for OWAG_V3Editor (ini files are newer than makefile)
+[2019.05.07-07.39.17:203][184]CompilerResultsLog: Parsing headers for OWAG_V3Editor
+[2019.05.07-07.39.17:203][184]CompilerResultsLog:   Running UnrealHeaderTool "E:\OWAG_V3\OWAG_V3\OWAG_V3.uproject" "E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\OWAG_V3Editor\Development\OWAG_V3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.07-07.39.17:205][184]CompilerResultsLog: Reflection code generated for OWAG_V3Editor in 15.8381349 seconds
+[2019.05.07-07.39.17:206][184]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.07-07.39.17:207][184]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.05.07-07.39.17:207][184]CompilerResultsLog:   [1/5] PlayerCharacterController.gen.cpp
+[2019.05.07-07.39.17:207][184]CompilerResultsLog:   [2/5] PlayerCharacterController.cpp
+[2019.05.07-07.39.17:207][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(37) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:208][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:208][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(38) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:208][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:209][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(47) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:209][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:215][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(48) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:216][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:216][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(54) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:216][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:217][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(59) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:218][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:218][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(64) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:218][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:219][184]CompilerResultsLog:    E:\OWAG_V3\OWAG_V3\Source\OWAG_V3\PlayerCharacterController.cpp(69) : error C2027: use of undefined type 'APlayerCharacter'
+[2019.05.07-07.39.17:219][184]CompilerResultsLog:   e:\owag_v3\owag_v3\source\owag_v3\PlayerCharacterController.h(8): note: see declaration of 'APlayerCharacter'
+[2019.05.07-07.39.17:222][184]LogMainFrame: MainFrame: Module compiling took 39.902 seconds
+[2019.05.07-07.39.17:223][184]Warning: HotReload failed, recompile failed
+[2019.05.07-08.33.03:040][618]LogUObjectHash: Compacting FUObjectHashTables data took  20.80ms
+[2019.05.07-08.33.03:148][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerCharacter/PlayerCharacter_BP" FILE="E:/OWAG_V3/OWAG_V3/Content/PlayerCharacter/PlayerCharacter_BP.uasset" SILENT=true
+[2019.05.07-08.33.03:883][618]LogSavePackage: Moving 'E:/OWAG_V3/OWAG_V3/Saved/PlayerCharacter_BP6B4A5B9244A1401468AEBE891DE029BE.tmp' to 'E:/OWAG_V3/OWAG_V3/Content/PlayerCharacter/PlayerCharacter_BP.uasset'
+[2019.05.07-08.33.04:019][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerCharacterController_BP" FILE="E:/OWAG_V3/OWAG_V3/Content/PlayerCharacterController_BP.uasset" SILENT=true
+[2019.05.07-08.33.04:677][618]LogSavePackage: Moving 'E:/OWAG_V3/OWAG_V3/Saved/PlayerCharacterController_BP9252B2DB4DD2759F7EB29F9B297F0663.tmp' to 'E:/OWAG_V3/OWAG_V3/Content/PlayerCharacterController_BP.uasset'
+[2019.05.07-08.43.01:599][455]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2019.05.07-08.43.01:894][455]LogSlate: Window 'OWAG_V3 - Unreal Editor' being destroyed
+[2019.05.07-08.43.01:897][455]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.07-08.43.01:898][455]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.07-08.43.02:614][456]Cmd: QUIT_EDITOR
+[2019.05.07-08.43.03:789][456]LogExit: Preparing to exit.
+[2019.05.07-08.43.07:399][456]LogExit: Editor shut down
+[2019.05.07-08.43.07:408][456]LogExit: Transaction tracking system shut down
+[2019.05.07-08.43.12:535][456]LogExit: Object subsystem successfully closed.
+[2019.05.07-08.43.12:944][456]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.07-08.43.13:494][456]LogD3D11RHI: Shutdown
+[2019.05.07-08.43.13:494][456]LogD3D11RHI: CleanupD3DDevice
+[2019.05.07-08.43.13:500][456]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.05.07-08.43.13:500][456]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.05.07-08.43.13:501][456]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.05.07-08.43.13:501][456]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.05.07-08.43.13:501][456]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.05.07-08.43.13:501][456]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.05.07-08.43.14:875][456]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.07-08.43.14:931][456]LogModuleManager: Shutting down and abandoning module BlueprintGraph (654)
+[2019.05.07-08.43.14:931][456]LogModuleManager: Shutting down and abandoning module OWAG_V3 (652)
+[2019.05.07-08.43.14:931][456]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2019.05.07-08.43.14:931][456]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2019.05.07-08.43.14:931][456]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2019.05.07-08.43.15:054][456]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2019.05.07-08.43.15:054][456]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.05.07-08.43.15:054][456]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (634)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.05.07-08.43.15:058][456]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.05.07-08.43.15:059][456]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.05.07-08.43.15:060][456]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.05.07-08.43.15:061][456]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.05.07-08.43.15:062][456]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.05.07-08.43.15:062][456]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.05.07-08.43.15:065][456]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.05.07-08.43.15:065][456]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.05.07-08.43.15:065][456]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.05.07-08.43.15:065][456]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.05.07-08.43.15:066][456]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.05.07-08.43.15:066][456]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.05.07-08.43.16:164][456]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.05.07-08.43.16:165][456]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.05.07-08.43.16:167][456]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.05.07-08.43.16:167][456]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.05.07-08.43.16:167][456]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.05.07-08.43.16:167][456]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.05.07-08.43.16:167][456]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.05.07-08.43.16:167][456]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.05.07-08.43.16:168][456]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.05.07-08.43.16:217][456]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.05.07-08.43.16:217][456]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.05.07-08.43.16:218][456]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.05.07-08.43.16:218][456]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.05.07-08.43.16:218][456]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.05.07-08.43.16:221][456]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.05.07-08.43.16:222][456]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.05.07-08.43.16:222][456]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.05.07-08.43.16:223][456]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.05.07-08.43.16:223][456]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.05.07-08.43.16:223][456]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.05.07-08.43.16:250][456]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.05.07-08.43.16:251][456]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.05.07-08.43.16:259][456]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.05.07-08.43.16:259][456]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.05.07-08.43.16:259][456]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.05.07-08.43.16:259][456]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.05.07-08.43.16:260][456]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.05.07-08.43.16:260][456]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.05.07-08.43.16:260][456]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.05.07-08.43.16:262][456]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.05.07-08.43.16:262][456]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.05.07-08.43.16:262][456]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.05.07-08.43.16:262][456]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.05.07-08.43.16:262][456]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.05.07-08.43.16:263][456]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.05.07-08.43.16:270][456]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.05.07-08.43.16:319][456]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.05.07-08.43.16:320][456]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.05.07-08.43.16:321][456]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.05.07-08.43.16:322][456]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.07-08.43.16:323][456]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.07-08.43.16:430][456]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.07-08.43.16:531][456]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.05.07-08.43.16:531][456]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.05.07-08.43.16:531][456]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.05.07-08.43.16:531][456]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.05.07-08.43.16:531][456]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.05.07-08.43.16:532][456]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.07-08.43.16:532][456]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.05.07-08.43.16:533][456]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.05.07-08.43.16:536][456]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.05.07-08.43.16:537][456]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.05.07-08.43.16:537][456]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.05.07-08.43.16:537][456]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.05.07-08.43.16:539][456]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.05.07-08.43.16:546][456]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.05.07-08.43.16:546][456]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.05.07-08.43.16:546][456]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.05.07-08.43.16:546][456]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.05.07-08.43.16:546][456]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.05.07-08.43.16:546][456]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.05.07-08.43.16:547][456]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.05.07-08.43.16:548][456]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.05.07-08.43.16:549][456]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.05.07-08.43.16:549][456]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.05.07-08.43.16:549][456]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.05.07-08.43.16:549][456]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.05.07-08.43.16:550][456]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.05.07-08.43.16:550][456]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.05.07-08.43.16:550][456]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.05.07-08.43.16:550][456]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.05.07-08.43.16:559][456]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.05.07-08.43.16:560][456]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.05.07-08.43.16:560][456]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.05.07-08.43.16:560][456]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.05.07-08.43.16:560][456]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.05.07-08.43.16:560][456]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.05.07-08.43.16:601][456]LogDerivedDataCache: Shutdown
+[2019.05.07-08.43.16:601][456]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.05.07-08.43.16:601][456]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.05.07-08.43.16:601][456]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.05.07-08.43.16:601][456]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.05.07-08.43.16:601][456]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.05.07-08.43.16:602][456]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.05.07-08.43.16:602][456]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.05.07-08.43.16:602][456]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.05.07-08.43.16:602][456]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.05.07-08.43.16:602][456]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.05.07-08.43.16:602][456]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.05.07-08.43.16:603][456]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.05.07-08.43.16:603][456]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.05.07-08.43.16:603][456]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.05.07-08.43.16:603][456]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.05.07-08.43.16:603][456]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.05.07-08.43.16:603][456]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.05.07-08.43.16:604][456]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.05.07-08.43.16:672][456]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.05.07-08.43.16:672][456]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.05.07-08.43.16:672][456]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.05.07-08.43.16:672][456]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.05.07-08.43.16:672][456]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.05.07-08.43.16:681][456]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.05.07-08.43.16:681][456]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.05.07-08.43.16:708][456]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.05.07-08.43.16:708][456]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.05.07-08.43.16:942][456]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.05.07-08.43.16:942][456]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.05.07-08.43.16:942][456]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.05.07-08.43.16:942][456]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.05.07-08.43.16:942][456]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.05.07-08.43.16:943][456]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.05.07-08.43.16:944][456]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.05.07-08.43.16:945][456]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.05.07-08.43.16:946][456]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.05.07-08.43.16:946][456]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.05.07-08.43.16:956][456]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.05.07-08.43.16:959][456]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.05.07-08.43.16:967][456]LogHMD: Freeing OpenVRDLLHandle.
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.05.07-08.43.16:967][456]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.05.07-08.43.16:970][456]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.05.07-08.43.16:970][456]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.05.07-08.43.16:988][456]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.05.07-08.43.16:988][456]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.07-08.43.16:988][456]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B28B42757-4F52-D3E1-A9BB-B9BB8F2213C2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.1-6063286%2B%2B%2BUE4%2BRelease-4.22&UserID=c22dc6a34fa7fbd0d869dca6ffbbd316%7C6179e234bd6346da973226b0c2d41272%7C89b1d986-3f9d-43d1-a986-72f0895c6524&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.07-08.43.17:122][456]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.05.07-08.43.17:130][456]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.05.07-08.43.17:134][456]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.05.07-08.43.17:141][456]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.05.07-08.43.17:141][456]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.05.07-08.43.17:161][456]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.05.07-08.43.17:161][456]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.05.07-08.43.17:162][456]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.05.07-08.43.17:162][456]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.05.07-08.43.17:163][456]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.05.07-08.43.17:163][456]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.05.07-08.43.17:163][456]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.05.07-08.43.17:167][456]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.05.07-08.43.17:168][456]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.05.07-08.43.17:168][456]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.05.07-08.43.17:168][456]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.05.07-08.43.17:259][456]LogExit: Exiting.
+[2019.05.07-08.43.17:396][456]Log file closed, 05/07/19 04:43:17

@@ -42,4 +42,26 @@
       <Filter>Source\OWAG_V3</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\OWAG_V3\PlayerCharacter.h">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OWAG_V3\PlayerCharacterController.h">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OWAG_V3\MainGameMode.h">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\OWAG_V3\PlayerCharacter.cpp">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OWAG_V3\PlayerCharacterController.cpp">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OWAG_V3\MainGameMode.cpp">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
