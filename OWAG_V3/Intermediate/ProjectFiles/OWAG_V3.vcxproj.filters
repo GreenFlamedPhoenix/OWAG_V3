@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\OWAG_V3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D45486AB-D1BE-4E4F-B3F8-880B340D1E1D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OWAG_V3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\OWAG_V3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{ED60880F-17A9-4C07-8EAD-FD15DF25F059}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\OWAG_V3">
+      <UniqueIdentifier>{1C46CF78-1BE2-44F9-BFE3-598EBC2A3006}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OWAG_V3\OWAG_V3.Build.cs">
+      <Filter>Source\OWAG_V3</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\OWAG_V3\OWAG_V3.h">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\OWAG_V3\OWAG_V3.cpp">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\OWAG_V3\OWAG_V3GameModeBase.h">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\OWAG_V3\OWAG_V3GameModeBase.cpp">
+      <Filter>Source\OWAG_V3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

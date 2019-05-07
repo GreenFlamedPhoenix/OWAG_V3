@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OWAG_V3.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\OWAG_V3Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\OWAG_V3.cpp.obj"
+"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\OWAG_V3GameModeBase.cpp.obj"
+"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\OWAG_V3GameModeBase.gen.cpp.obj"
+"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\OWAG_V3.init.gen.cpp.obj"
+"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\Default.rc2.res"
+/OUT:"E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\UE4Editor-OWAG_V3.lib"
+/INCLUDE:IMPLEMENT_MODULE_OWAG_V3

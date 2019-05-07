@@ -1,0 +1,7 @@
+E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Development\OWAG_V3\Definitions.OWAG_V3.h
+e:\owag_v3\owag_v3\source\owag_v3\OWAG_V3GameModeBase.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\OWAG_V3\OWAG_V3\Intermediate\Build\Win64\UE4Editor\Inc\OWAG_V3\OWAG_V3GameModeBase.generated.h
