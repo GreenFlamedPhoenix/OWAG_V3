@@ -39,6 +39,21 @@ void APlayerCharacterController::MoveForward(float Axis)
 		float ClampedAxis = FMath::Clamp(Axis, -1.f, 1.f);
 		FVector Direction = ControlledCharacter->GetActorForwardVector();
 		ControlledCharacter->AddMovementInput(Direction, ClampedAxis);
+		if (ClampedAxis < 0.f)
+		{
+			bIsWalkingBackwards = true;
+			bIsWalkingForwards = false;
+		}
+		else if (ClampedAxis > 0.f)
+		{
+			bIsWalkingBackwards = false;
+			bIsWalkingForwards = true;
+		}
+	}
+	else
+	{
+		bIsWalkingBackwards = false;
+		bIsWalkingForwards = false;
 	}
 }
 
@@ -65,9 +80,11 @@ void APlayerCharacterController::EndJump()
 void APlayerCharacterController::StartSprint()
 {
 	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = 1250.f;
+	bIsSprinting = true;
 }
 
 void APlayerCharacterController::EndSprint()
 {
 	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = 600.f;
+	bIsSprinting = false;
 }

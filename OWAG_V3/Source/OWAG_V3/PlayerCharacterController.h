@@ -34,5 +34,10 @@ public:
 	void EndSprint();
 
 	/*Movement Variables*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	bool bIsSprinting;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	bool bIsWalkingForwards;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	bool bIsWalkingBackwards;
 };
