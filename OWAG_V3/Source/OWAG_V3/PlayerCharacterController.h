@@ -22,6 +22,7 @@ public:
 	virtual void SetupInputComponent() override;
 
 	/*Base variables*/
+	UPROPERTY()
 	APlayerCharacter* ControlledCharacter;
 
 	/*Movement functions*/
@@ -31,4 +32,7 @@ public:
 	void EndJump();
 	void StartSprint();
 	void EndSprint();
+
+	/*Movement Variables*/
+	bool bIsSprinting;
 };

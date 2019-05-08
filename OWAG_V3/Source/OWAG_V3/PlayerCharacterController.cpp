@@ -4,6 +4,8 @@
 #include "PlayerCharacterController.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Character.h"
+#include "PlayerCharacter.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 void APlayerCharacterController::BeginPlay()
 {
@@ -62,7 +64,7 @@ void APlayerCharacterController::EndJump()
 
 void APlayerCharacterController::StartSprint()
 {
-	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = 850.f;
+	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = 1250.f;
 }
 
 void APlayerCharacterController::EndSprint()
