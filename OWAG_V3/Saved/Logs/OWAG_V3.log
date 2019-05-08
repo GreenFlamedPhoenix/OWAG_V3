@@ -802,3 +802,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.08-03.20.02:507][183]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
 [2019.05.08-03.20.52:670][333]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.163 sec). This should never happen. Something is wrong with the timer delegate!
 [2019.05.08-03.23.34:395][687]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.05.08-03.24.56:986][154]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.08-03.24.57:045][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainWorldProto.MainWorldProto:PersistentLevel' has LevelScriptBlueprint '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto' with GeneratedClass '/Game/MainWorldProto.MainWorldProto_C' with ClassGeneratedBy '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto'
+[2019.05.08-03.24.57:046][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.08-03.24.57:046][154]PIE: New page: PIE session: MainWorldProto (May 7, 2019, 7:24:57 PM)
+[2019.05.08-03.24.57:047][154]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainWorldProto
+[2019.05.08-03.24.57:110][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063234s)
+[2019.05.08-03.24.57:112][154]LogAIModule: Creating AISystem for world MainWorldProto
+[2019.05.08-03.24.57:112][154]LogPlayLevel: PIE: World Init took: (0.001671s)
+[2019.05.08-03.24.57:113][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainWorldProto.MainWorldProto to /Game/UEDPIE_0_MainWorldProto.MainWorldProto (0.066165s)
+[2019.05.08-03.24.57:172][154]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2019.05.08-03.24.57:177][154]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-03.24.57:326][154]LogInit: FAudioDevice initialized.
+[2019.05.08-03.24.57:359][154]LogLoad: Game class is 'MainGameMode_BP_C'
+[2019.05.08-03.24.57:366][154]LogWorld: Bringing World /Game/UEDPIE_0_MainWorldProto.MainWorldProto up for play (max tick rate 60) at 2019.05.07-23.24.57
+[2019.05.08-03.24.57:367][154]LogWorld: Bringing up level for play took: 0.006218
+[2019.05.08-03.24.57:383][154]PIE: Play in editor start time for /Game/UEDPIE_0_MainWorldProto 0.934
+[2019.05.08-03.24.57:383][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainWorldProto.MainWorldProto:PersistentLevel' has LevelScriptBlueprint '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto' with GeneratedClass '/Game/MainWorldProto.MainWorldProto_C' with ClassGeneratedBy '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto'
+[2019.05.08-03.25.07:519][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainWorldProto.MainWorldProto:PersistentLevel' has LevelScriptBlueprint '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto' with GeneratedClass '/Game/MainWorldProto.MainWorldProto_C' with ClassGeneratedBy '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto'
+[2019.05.08-03.25.07:520][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-03.25.07:557][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.08-03.25.07:558][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainWorldProto.MainWorldProto:PersistentLevel' has LevelScriptBlueprint '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto' with GeneratedClass '/Game/MainWorldProto.MainWorldProto_C' with ClassGeneratedBy '/Game/MainWorldProto.MainWorldProto:PersistentLevel.MainWorldProto'
+[2019.05.08-03.25.07:617][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-03.25.07:626][729]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.05.08-03.25.07:703][730]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.08-03.25.08:969][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
