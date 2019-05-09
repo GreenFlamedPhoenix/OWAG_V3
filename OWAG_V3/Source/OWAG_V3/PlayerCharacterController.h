@@ -37,9 +37,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	bool bIsSprinting;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	bool bIsWalkingForwards;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	bool bIsWalkingBackwards;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	float ForwardAxis;
+	UPROPERTY(EditAnywhere, Category = "Character Movement")
+	float NormalWalkSpeed = 550.f;
+	UPROPERTY(EditAnywhere, Category = "Character Movement")
+	float BackwardWalkSpeed = 250.f;
+	UPROPERTY(EditAnywhere, Category = "Character Movement")
+	float SprintSpeed = 1200.f;
+
 };

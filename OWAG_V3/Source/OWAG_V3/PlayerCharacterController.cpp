@@ -39,6 +39,17 @@ void APlayerCharacterController::MoveForward(float Axis)
 
 	if (ClampedAxis != 0.f)
 	{
+		if (bIsSprinting != true)
+		{
+			if (ClampedAxis > 0.f)
+			{
+				ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = NormalWalkSpeed;
+			}
+			else
+			{
+				ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = BackwardWalkSpeed;
+			}
+		}
 		FVector Direction = ControlledCharacter->GetActorForwardVector();
 		ControlledCharacter->AddMovementInput(Direction, ClampedAxis);
 	}
@@ -66,12 +77,12 @@ void APlayerCharacterController::EndJump()
 
 void APlayerCharacterController::StartSprint()
 {
-	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = 1250.f;
+	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = SprintSpeed;
 	bIsSprinting = true;
 }
 
 void APlayerCharacterController::EndSprint()
 {
-	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = 600.f;
+	ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = NormalWalkSpeed;
 	bIsSprinting = false;
 }

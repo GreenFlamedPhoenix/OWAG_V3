@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeOWAG_V3_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x29ED6310,
+				0x02735B45,
 				0xAAD651DE,
 				METADATA_PARAMS(nullptr, 0)
 			};
