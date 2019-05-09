@@ -40,4 +40,6 @@ public:
 	bool bIsWalkingForwards;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	bool bIsWalkingBackwards;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float ForwardAxis;
 };
