@@ -41,7 +41,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Character Movement")
 	float NormalWalkSpeed = 550.f;
 	UPROPERTY(EditAnywhere, Category = "Character Movement")
-	float BackwardWalkSpeed = 250.f;
+	float BackwardWalkSpeed = 200.f;
 	UPROPERTY(EditAnywhere, Category = "Character Movement")
 	float SprintSpeed = 1200.f;
 

@@ -59,6 +59,7 @@ void APlayerCharacterController::MoveRight(float Axis)
 {
 	if (Axis != 0.f)
 	{
+		ControlledCharacter->GetCharacterMovement()->MaxWalkSpeed = NormalWalkSpeed;
 		float ClampedAxis = FMath::Clamp(Axis, -1.f, 1.f);
 		FVector Direction = ControlledCharacter->GetActorRightVector();
 		ControlledCharacter->AddMovementInput(Direction, ClampedAxis);
